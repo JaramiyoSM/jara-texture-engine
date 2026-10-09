@@ -1,0 +1,12 @@
+{
+  "name": "jara-texture-engine",
+  "version": "0.2.0",
+  "description": "Independent DDS and GTA V Legacy YTD texture engine by Jaramiyo",
+  "type": "module",
+  "main": "texture.js",
+  "exports": "./texture.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {"test": "node --test texture.test.js"},
+  "dependencies": {"fflate": "^0.8.2", "jszip": "^3.10.1"}
+}
